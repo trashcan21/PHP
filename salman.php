@@ -1,56 +1,48 @@
-<!-- <!DOCTYPE html>
-<html>
-<body>
+<?php
+
+
+$A = "Second Session of PHP";
+echo("Second Session of PHP". "<br>");
+echo("Second Session of PHP". "<br>");
+echo("Second Session of PHP". "<br>");
+
+$b = "hello world" ; 
+
+$c = 25;
+
+$d = 25.5;
+var_dump($b);
+var_dump($b);
+var_dump($b); 
+echo("<br>");
+echo("<br>");
+
+
+
+
+
+
+?> 
+
 
 <?php
-echo"<h2>PHP is </h2>";
-echo "hello world! <br>";
-echo"Lorem <br>";
-echo "L","o","r","e","m";   
 
-?>  
-</body>
-</html> -->
+$number1 = 10;
+$number2 = 5;
 
-<!-- 
-<!DOCTYPE html>
-<html>
-<body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<style>
-.ab{
-color: blue;
-font-size: 20px;
-text-align: center;
-padding: 10px;
-border: 3px solid black;
-margin-top: 10px;
-margin-bottom: 10px;
-border-radius: 5px;
-box-shadow: 2px 2px 5px grey;
-}
-</style>
-</head>
-<body>
-<?php
-echo "<h1 class='ab'>Hello</h1>";
-$x=12;
-echo $x;
+
+$addition = $number1 + $number2;
+$subtraction = $number1 - $number2;
+$multiplication = $number1 * $number2;
+$division = $number1 / $number2;
+$modulus = $number1 % $number2;
+$exponentiation = $number1 ** $number2; 
+
+
+echo "Addition: $number1 + $number2 = $addition<br>";
+echo "Subtraction: $number1 - $number2 = $subtraction<br>";
+echo "Multiplication: $number1 * $number2 = $multiplication<br>";
+echo "Division: $number1 / $number2 = $division<br>";
+echo "Modulus: $number1 % $number2 = $modulus<br>";
+echo "Exponentiation: $number1 ** $number2 = $exponentiation<br>";
 ?>
-</body>
-</html> -->
-
-<?php
-$marks=92;
-if($marks > 95){
-    echo "Grade: A+";
-}else if($marks > 85){
-    echo "Grade: A";
-}else if($marks > 75){
-    echo "Grade: B+";
-}else if($marks > 65){
-    echo "Grade: B";
-}else if ($marks > 60){
-    echo "Grade: F";
-}
